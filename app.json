@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -27,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "517540939968886",
+          "clientToken": "add35d5e6420d37549843e337da9d5c2",
+          "displayName": "Mercado Las Lomas"
+        }
+      ]
+    ]
   }
 }
